@@ -23,4 +23,3 @@ def solution(maps):
     
     return distance[-1][-1] if distance[-1][-1] != 1e9 else -1
                 
- 
