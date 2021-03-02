@@ -1,3 +1,12 @@
+'''
+How to solve it 
+1. Find longest non-increasing suffix
+2. Find the pivot: Look at the element immediately to the left of the suffix (it must be smaller than the head of the suffix)
+3. Select the smallest element in the suffix that is bigger than the pivot
+4. Swap the pivot and the element
+5. Reverse the suffix
+'''
+
 def biggerIsGreater(w):
     w = list(w)
     i = len(w) - 1
